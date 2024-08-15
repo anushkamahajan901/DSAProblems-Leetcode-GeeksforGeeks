@@ -9,7 +9,7 @@ class Solution:
         def dfs(left, right):
             if not left and not right:
                 return True
-            if not left or not right:
+            if not left or not right:   
                 return False
             
             return (left.val == right.val and 
