@@ -19,5 +19,5 @@ def sort_list(head):
             idx += 1
         else:
             ptr.data = idx
-            cnt[idx] -= 1
+            cnt[idx] -= 1 
             ptr = ptr.next
