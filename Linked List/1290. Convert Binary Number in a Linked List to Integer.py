@@ -12,3 +12,4 @@ class Solution:
             res += cur.val
             cur = cur.next
         return res
+ 
