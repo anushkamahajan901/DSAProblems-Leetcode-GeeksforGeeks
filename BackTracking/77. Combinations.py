@@ -1,7 +1,7 @@
 
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
-        res = []
+        res = [] 
         
         def backtrack(start, comb):
             if len(comb) == k:
